@@ -1,0 +1,89 @@
+/* Coluna Lateral */
+#descricao_lateral {
+    margin-bottom: 1rem;
+}
+
+/* Formulário */
+#form_visita {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    background: #cdc6b1;
+}
+
+#titulo_form {
+    padding: 0.1rem;
+    color: #86521a;
+    text-align: center;
+}
+
+.form_label,
+.form_input {
+    padding: 0.3rem;
+    font-size: 1.3rem;
+
+}
+
+.form_input {
+    border: none;
+    text-align: center;
+}
+
+#caixa_bt_form {
+    display: flex;
+    justify-content: center;
+}
+
+#bt_form {
+    height: 3rem;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 0.8rem;
+    background-color: #9b9271;
+    color: white;
+}
+
+/* Galeria Home */
+#galeria_home {
+    padding-bottom: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#link_galeria {
+    width: 100%;
+    padding: 1rem;
+}
+
+#titulo_galeria_home {
+    text-align: center;
+    font-size: 2rem;
+    color: #86521a;
+}
+
+.img_home_container {
+    background: url(../img/fundo-foto.png) no-repeat;
+    padding: 1.5rem;
+    padding-bottom: 2.2rem;
+    ;
+}
+
+.img_galeria_home {
+    height: 95%;
+    width: 95%;
+    margin: 5% auto;
+}
+
+/* Rodapé */
+
+#rodape {
+    background: #f4f2ec url(../img/fundo.png) repeat-x;
+    height: 5rem;
+}
+
+#rodape_texto {
+    text-align: center;
+    color: white;
+    font-size: 1.3rem;
+    padding: 2rem;
+}

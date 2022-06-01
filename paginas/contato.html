@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Museu Nacional - Galeria</title>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/style_pt1.css">
+    <link rel="stylesheet" href="../css/style_pt2.css">
+    <link rel="stylesheet" href="../css/style_pt3.css">
+    <link rel="stylesheet" href="../css/style_pt4.css">
+</head>
+
+<body>
+    <div id="container">
+        <!--Início Cabeçalho-->
+        <header id="cabecalho">
+            <div id="logo">
+                <h1 id="titulo_logo">
+                    <a id="link_logo" href="../index.html">Museu Nacional</a>
+                </h1>
+            </div>
+            <!--Início NavBar-->
+            <nav id="navbar">
+                <ul id="ul_nav">
+                    <li id="li_nav">
+                        <a id="link_navbar" href="../index.html">Home</a>
+                        <a id="link_navbar" href="secundaria.html">Exposições</a>
+                        <a id="link_navbar" href="secundaria.html">Pesquisa</a>
+                        <a id="link_navbar" href="secundaria.html">Acervo</a>
+                        <a id="link_navbar" href="galeria.html">Galeria</a>
+                        <a id="link_navbar" href="contato.html">Contato</a>
+                    </li>
+                </ul>
+            </nav>
+            <!--Fim  NavBar-->
+        </header>
+        <!--Fim Cabeçalho, Início Conteúdos-->
+        <section class="caixa_contato">
+            <!--Primeiro Formulário-->
+            <div class="caixa_form_contato">
+                <div id="caixa_interna_form">
+                    <h2 class="titulo_form_contato">Faça uma visita</h2>
+                    <form class="form_contato">
+                        <div id="caixa_campo_visita">
+                            <fieldset id="campo_visita">
+                                <legend>Selecione uma data</legend>
+                                <label class="contato_form_label" for="data">Data:</label>
+                                <input class="contato_form_input" type="text" id="data" value="dd/mm/aaaa">
+                                <label class="contato_form_label" for="qtd">Qtd Pessoas:</label>
+                                <input class="contato_form_input" style="width: 3rem;" type="text" id="qtd" value="1">
+                            </fieldset>
+                            <div class="caixa_bt_contato_form">
+                                <input class="bt_contato_form" type="submit" value="Verificar Disponibilidade">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <!--Segundo Formulário-->
+            <div class="caixa_form_contato">
+                <h2 class="titulo_form_contato">Entre em contato</h2>
+                <form class="form_contato">
+                    <fieldset id="campo_contato">
+                        <legend>Selecione uma data</legend>
+                        <label class="contato_form_label" for="email">Seu Email:</label>
+                        <input class="contato_form_input" type="email" id="email" placeholder="Seu email">
+                        <label class="contato_form_label" for="assunto">Assunto:</label>
+                        <input class="contato_form_input" type="text" id="assunto" placeholder="Digite aqui o assunto">
+                        <label class="contato_form_label" for="descricao">Descrição:</label>
+                        <input class="contato_form_input" type="text" id="descricao"
+                            placeholder="Digite aqui a descrição">
+                    </fieldset>
+                    <div class="caixa_bt_contato_form">
+                        <input class="bt_contato_form" type="submit" value="Enviar">
+                    </div>
+                </form>
+            </div>
+        </section>
+        <!--Fim Conteúdos-->
+    </div>
+    <footer id="rodape">
+        <p id="rodape_texto">by Leandro Maciel</p>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Museu Nacional</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style_pt1.css">
+    <link rel="stylesheet" href="css/style_pt2.css">
+    <link rel="stylesheet" href="css/style_pt3.css">
+</head>
+
+<body>
+    <div id="container">
+        <!--Início Cabeçalho-->
+        <header id="cabecalho">
+            <div id="logo">
+                <h1 id="titulo_logo">
+                    <a id="link_logo" href="index.html">Museu Nacional</a>
+                </h1>
+            </div>
+            <!--Início NavBar-->
+            <nav id="navbar">
+                <ul id="ul_nav">
+                    <li id="li_nav">
+                        <a id="link_navbar" href="index.html">Home</a>
+                        <a id="link_navbar" href="paginas/secundaria.html">Exposições</a>
+                        <a id="link_navbar" href="paginas/secundaria.html">Pesquisa</a>
+                        <a id="link_navbar" href="paginas/secundaria.html">Acervo</a>
+                        <a id="link_navbar" href="paginas/galeria.html">Galeria</a>
+                        <a id="link_navbar" href="paginas/contato.html">Contato</a>
+                    </li>
+                </ul>
+            </nav>
+            <!--Fim  NavBar-->
+        </header>
+        <!--Fim Cabeçalho, Início Conteúdos-->
+        <section class="caixa_conteudo">
+            <!--Início Coluna Principal-->
+            <div class="coluna_principal">
+                <!--Conteúdo Início-->
+                <div id="capa">
+                    <img id="img_capa" src="img/museu.png" alt="Imagem do museu nacional">
+                </div>
+                <!--Conteúdo Fim-->
+                <div id="container_conteudo_especial">
+                    <!--Conteúdo Início-->
+                    <div id="container_video">
+                        <h2 class="titulo_conteudo_principal">Conheça o museu</h2>
+                        <iframe id="video" src="https://www.youtube.com/embed/RGUYb-hivrc" title="YouTube video player"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                    <!--Conteúdo Fim, Conteúdo Início-->
+                    <div id="container_mapa">
+                        <h2 class="titulo_conteudo_principal">Encontre o museu</h2>
+                        <iframe id="mapa"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3455.076665463007!2d-43.22871758520151!3d-22.905759985012363!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997e58a085b7af%3A0x4d11e9a933d38ce3!2sMuseu%20Nacional%20-%20UFRJ!5e1!3m2!1spt-BR!2sbr!4v1651870468078!5m2!1spt-BR!2sbr"
+                            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                </div>
+                <!--Conteúdo Fim-->
+                <div id="container_conteudo_texto">
+                    <!--Conteúdo Início-->
+                    <div class="conteudo_texto">
+                        <h2 class="titulo_conteudo_principal">Artigo Número 1</h2>
+                        <p class="texto_conteudo_principal">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi dicta placeat ab nihil
+                            accusantium libero blanditiis eum voluptates at ea? Ex blanditiis unde, cum iste quos
+                            officiis odio praesentium aut!
+                        </p>
+                    </div>
+                    <!--Conteúdo Fim, Conteúdo Início-->
+                    <div class="conteudo_texto">
+                        <h2 class="titulo_conteudo_principal">Artigo Número 2</h2>
+                        <p class="texto_conteudo_principal">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi dicta placeat ab nihil
+                            accusantium libero blanditiis eum voluptates at ea? Ex blanditiis unde, cum iste quos
+                            officiis odio praesentium aut!
+                        </p>
+                    </div>
+                    <!--Conteúdo Fim-->
+                </div>
+
+            </div>
+            <!--Fim Coluna Principal, Início Coluna Lateral-->
+            <aside class="coluna_lateral">
+                <!--Conteúdo Início-->
+                <div id="descricao_lateral">
+                    <img id="img_descricao" src="img/depoimento.png"
+                        alt="Rápida apresentação do museu, criado em 1922 e contando com amis de 250.000 itens no seu acervo">
+                </div>
+                <!--Conteúdo Fim, Conteúdo Início-->
+                <div id="form_visita">
+                    <h2 id="titulo_form">Faça uma visita</h2>
+                    <form id="form">
+                        <fieldset id="campo_form">
+                            <legend>Selecione uma data</legend>
+                            <label class="form_label" for="data">Data:</label>
+                            <input class="form_input" type="text" id="data" value="dd/mm/aaaa">
+                            <label class="form_label" for="qtd">Qtd Pessoas:</label>
+                            <input class="form_input" style="width: 3rem;" type="text" id="qtd" value="1">
+                        </fieldset>
+                        <div id="caixa_bt_form">
+                            <input id="bt_form" type="submit" value="Verificar Disponibilidade">
+                        </div>
+                    </form>
+                </div>
+                <!--Conteúdo Fim, Conteúdo Início-->
+                <div id="galeria_home">
+                    <a id="link_galeria" href="paginas/galeria.html">
+                        <h2 id="titulo_galeria_home">Galeria</h2>
+                    </a>
+                    <div class="img_home_container">
+                        <img class="img_galeria_home" src="img/imagem1.jpg">
+                    </div>
+                    <div class="img_home_container">
+                        <img class="img_galeria_home" src="img/imagem2.jpg">
+                    </div>
+                    <div class="img_home_container">
+                        <img class="img_galeria_home" src="img/imagem3.jpg">
+                    </div>
+                    <div class="img_home_container">
+                        <img class="img_galeria_home" src="img/imagem4.jpg">
+                    </div>
+                    <div class="img_home_container">
+                        <img class="img_galeria_home" src="img/imagem5.jpg">
+                    </div>
+                    <div class="img_home_container">
+                        <img class="img_galeria_home" src="img/imagem6.jpg">
+                    </div>
+                </div>
+                <!--Conteúdo Fim-->
+            </aside>
+            <!--Fim Coluna Lateral-->
+        </section>
+        <!--Fim Conteúdos-->
+    </div>
+    <footer id="rodape">
+        <p id="rodape_texto">by Leandro Maciel</p>
+    </footer>
+
+</body>
+
+</html>
